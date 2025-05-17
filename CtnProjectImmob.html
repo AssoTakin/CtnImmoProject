@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet Immobilier à Cotonou - Villa de 400m² à Gbégamey</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+        }
+        .page-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin-bottom: 3rem;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            color: #1e40af;
+        }
+        .highlight-box {
+            background-color: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 1rem;
+            margin: 1rem 0;
+        }
+        .image-container {
+            margin: 1.5rem 0;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .image-caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+            color: #6b7280;
+        }
+        .stat-card {
+            background-color: white;
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            height: 100%;
+            border-top: 3px solid #3b82f6;
+        }
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+        }
+        .data-table th, .data-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .data-table th {
+            background-color: #f3f4f6;
+            font-weight: 600;
+            text-align: left;
+        }
+        .data-table tr:nth-child(even) {
+            background-color: #f9fafb;
+        }
+        .chart-container {
+            width: 100%;
+            margin: 1.5rem 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="page-container">
+        <!-- En-tête -->
+        <header class="header">
+            <h1 class="text-4xl font-bold mb-2">Projet d'Investissement Immobilier à Cotonou</h1>
+            <h2 class="text-2xl font-semibold mb-4">Villa de 400m² dans le quartier de Gbégamey</h2>
+            <p class="text-lg">Analyse financière détaillée sur 10 ans</p>
+        </header>
+
+        <!-- Résumé exécutif -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Résumé Exécutif</h2>
+            <div class="highlight-box">
+                <p class="font-semibold mb-2">Opportunité d'investissement dans une villa haut de gamme de 400m² à Cotonou, Bénin</p>
+                <p>Ce projet immobilier prévoit l'acquisition et la mise en location d'une propriété de standing dans un emplacement stratégique de Cotonou, générant un rendement annualisé attractif de 8,08% sur 10 ans.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+                <div class="stat-card">
+                    <h3 class="text-xl font-semibold text-blue-800">Investissement</h3>
+                    <p class="text-3xl font-bold mt-2">65 000 €</p>
+                    <p class="text-gray-600 mt-1">Investissement initial total</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="text-xl font-semibold text-blue-800">Loyer Mensuel</h3>
+                    <p class="text-3xl font-bold mt-2">1 650 €</p>
+                    <p class="text-gray-600 mt-1">Revenu locatif mensuel</p>
+                </div>
+                <div class="stat-card">
+                    <h3 class="text-xl font-semibold text-blue-800">Bénéfice Net</h3>
+                    <p class="text-3xl font-bold mt-2">116 500 €</p>
+                    <p class="text-gray-600 mt-1">Bénéfice net cumulé sur 10 ans</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Présentation du bien -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Le Bien Immobilier</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Caractéristiques du bien</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">Type de bien :</span> Villa haut de gamme</li>
+                        <li><span class="font-semibold">Superficie :</span> 400 m²</li>
+                        <li><span class="font-semibold">Structure :</span> Rez-de-chaussée + 1er étage + studio autonome</li>
+                        <li><span class="font-semibold">Emplacement :</span> Quartier de Gbégamey, Cotonou, Bénin</li>
+                        <li><span class="font-semibold">Points d'intérêt à proximité :</span> 
+                            <ul class="list-disc pl-5 mt-1">
+                                <li>Près de la Place de l'étoile rouge</li>
+                                <li>À 10 minutes en voiture de l'aéroport</li>
+                                <li>À 10 minutes du centre commercial Erevan</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="highlight-box mt-4">
+                        <p class="font-semibold">Emplacement stratégique</p>
+                        <p>Le quartier de Gbégamey est un emplacement central à Cotonou, offrant une excellente accessibilité aux principales infrastructures de la ville et une forte demande locative, particulièrement auprès des expatriés et des cadres.</p>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Contexte du marché immobilier à Cotonou</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Marché immobilier en pleine croissance, particulièrement dans les quartiers centraux de Cotonou</li>
+                        <li>Forte demande pour les propriétés haut de gamme, notamment de la part des expatriés et cadres internationaux</li>
+                        <li>Les loyers pour ce type de bien de standing oscillent généralement entre 1 000 € et 3 000 € par mois selon l'emplacement et les prestations</li>
+                        <li>L'immobilier "de luxe" est un secteur en plein essor à Cotonou, avec une demande constante</li>
+                        <li>Les villas avec studio autonome sont particulièrement recherchées pour la flexibilité qu'elles offrent</li>
+                    </ul>
+                    <div class="highlight-box mt-4">
+                        <p class="font-semibold">Clientèle cible potentielle</p>
+                        <ul class="list-disc pl-5 mt-1">
+                            <li>Expatriés travaillant pour des organisations internationales</li>
+                            <li>Cadres d'entreprises internationales</li>
+                            <li>Diplomates et personnel d'ambassades</li>
+                            <li>Entrepreneurs et hommes d'affaires étrangers</li>
+                            <li>Familles aisées locales</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Structure de financement -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Structure du Financement</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Investissement initial</h3>
+                    <div class="chart-container">
+                        <img src="https://cdn1.genspark.ai/user-upload-image/jupyter/tooluse_61En3URTTYCrOkFk1RWpcQ/nb_display/0_0.png" alt="Répartition de l'investissement initial" class="w-full">
+                        <p class="image-caption">Répartition de l'investissement initial de 65 000 €</p>
+                    </div>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Poste</th>
+                                <th>Montant (€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Investissement principal</td>
+                                <td>50 000</td>
+                            </tr>
+                            <tr>
+                                <td>Coût de financement</td>
+                                <td>10 000</td>
+                            </tr>
+                            <tr>
+                                <td>Mensualités pendant travaux</td>
+                                <td>5 000</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Total</strong></td>
+                                <td><strong>65 000</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Structure du prêt</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">Montant total à rembourser :</span> 60 000 €</li>
+                        <li><span class="font-semibold">Période de remboursement :</span> 5 ans (60 mois)</li>
+                        <li><span class="font-semibold">Mensualités :</span> 1 000 €/mois</li>
+                        <li><span class="font-semibold">Période de travaux :</span> 5 mois sans revenus locatifs</li>
+                    </ul>
+                    <div class="highlight-box mt-4">
+                        <p class="font-semibold">Avantage stratégique</p>
+                        <p>Le remboursement rapide du prêt sur 5 ans permet de dégager une rentabilité très intéressante sur la seconde période de 5 ans, une fois le prêt entièrement remboursé.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Analyse des flux financiers -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Analyse des Flux Financiers</h2>
+            <div class="chart-container">
+                <img src="https://cdn1.genspark.ai/user-upload-image/jupyter/tooluse_6yq8xoXbQh6PZSdK5lSIGA/nb_display/0_0.png" alt="Évolution du bénéfice net mensuel sur 10 ans" class="w-full">
+                <p class="image-caption">Évolution du bénéfice net mensuel sur 10 ans</p>
+            </div>
+            <h3 class="text-xl font-semibold text-blue-700 mb-3 mt-6">Répartition du loyer selon les phases du projet</h3>
+            <div class="chart-container">
+                <img src="https://cdn1.genspark.ai/user-upload-image/jupyter/tooluse_nBigfDc_SquUBXpasEdMpg/nb_display/0_0.png" alt="Répartition du loyer mensuel selon la phase du projet" class="w-full">
+                <p class="image-caption">Répartition du loyer mensuel de 1650 € selon la phase du projet</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Tableau des flux financiers mensuels</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Période</th>
+                                <th>Loyer (€)</th>
+                                <th>Mensualité (€)</th>
+                                <th>Provision (€)</th>
+                                <th>Bénéfice (€)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Mois 1-5 (travaux)</td>
+                                <td>0</td>
+                                <td>1 000</td>
+                                <td>0</td>
+                                <td class="text-red-600">-1 000</td>
+                            </tr>
+                            <tr>
+                                <td>Mois 6-60 (années 1-5)</td>
+                                <td>1 650</td>
+                                <td>1 000</td>
+                                <td>150</td>
+                                <td class="text-green-600">500</td>
+                            </tr>
+                            <tr>
+                                <td>Mois 61-120 (années 6-10)</td>
+                                <td>1 650</td>
+                                <td>0</td>
+                                <td>150</td>
+                                <td class="text-green-600">1 500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Points clés des flux financiers</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">Phase 1 (Travaux) :</span> Période d'investissement initial avec des sorties de trésorerie de 1 000 € par mois pendant 5 mois</li>
+                        <li><span class="font-semibold">Phase 2 (Années 1-5) :</span> Période d'exploitation avec remboursement du prêt, générant un bénéfice net de 500 € par mois</li>
+                        <li><span class="font-semibold">Phase 3 (Années 6-10) :</span> Période d'exploitation après remboursement du prêt, générant un bénéfice net triplé de 1 500 € par mois</li>
+                        <li><span class="font-semibold">Provision pour entretien :</span> 150 € par mois sont provisionnés pour l'entretien et les frais divers</li>
+                    </ul>
+                    <div class="highlight-box mt-4">
+                        <p class="font-semibold">Montant du loyer en contexte local</p>
+                        <p>Le loyer mensuel de 1 650 € (environ 1,08 million FCFA) est compétitif sur le marché immobilier haut de gamme à Cotonou, où des villas similaires peuvent se louer entre 1 million et 1,8 million FCFA selon les quartiers et prestations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rentabilité et retour sur investissement -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Rentabilité et Retour sur Investissement</h2>
+            <div class="chart-container">
+                <img src="https://cdn1.genspark.ai/user-upload-image/jupyter/tooluse_Oiu8xoUTSFqyY_huQKC7Qw/nb_display/0_0.png" alt="Bénéfice net cumulé par année sur 10 ans" class="w-full">
+                <p class="image-caption">Bénéfice net cumulé par année sur 10 ans</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Analyse de la rentabilité</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Indicateur</th>
+                                <th>Valeur</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Revenus locatifs sur 10 ans</td>
+                                <td>189 750 €</td>
+                            </tr>
+                            <tr>
+                                <td>Total des dépenses sur 10 ans</td>
+                                <td>137 250 €</td>
+                            </tr>
+                            <tr>
+                                <td>Bénéfice net sur 10 ans</td>
+                                <td>52 500 €</td>
+                            </tr>
+                            <tr>
+                                <td>Rentabilité sur l'investissement</td>
+                                <td>80,8%</td>
+                            </tr>
+                            <tr>
+                                <td>Rentabilité annualisée</td>
+                                <td>8,08%</td>
+                            </tr>
+                            <tr>
+                                <td>Point de rentabilisation</td>
+                                <td>Année 7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Bénéfice net par phase</h3>
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Phase</th>
+                                <th>Période</th>
+                                <th>Bénéfice mensuel</th>
+                                <th>Bénéfice cumulé</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Phase 1</td>
+                                <td>Mois 1-5</td>
+                                <td class="text-red-600">-1 000 €</td>
+                                <td class="text-red-600">-5 000 €</td>
+                            </tr>
+                            <tr>
+                                <td>Phase 2</td>
+                                <td>Mois 6-60</td>
+                                <td class="text-green-600">500 €</td>
+                                <td class="text-green-600">27 500 €</td>
+                            </tr>
+                            <tr>
+                                <td>Phase 3</td>
+                                <td>Mois 61-120</td>
+                                <td class="text-green-600">1 500 €</td>
+                                <td class="text-green-600">90 000 €</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="font-semibold text-right">Bénéfice net total sur 10 ans</td>
+                                <td class="font-semibold text-green-600">112 500 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="highlight-box mt-4">
+                        <p class="font-semibold">Comparaison avec le marché local</p>
+                        <p>Cette rentabilité annualisée de 8,08% est particulièrement attractive sur le marché béninois, où l'immobilier de standing dans les quartiers prisés de Cotonou offre généralement des rendements entre 5% et 7%.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facteurs d'attractivité -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Facteurs d'Attractivité et Clientèle Cible</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Avantages du bien</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">Emplacement stratégique</span> au cœur de Cotonou, à proximité des principaux points d'intérêt</li>
+                        <li><span class="font-semibold">Surface généreuse</span> de 400 m² offrant un espace de vie confortable</li>
+                        <li><span class="font-semibold">Studio autonome</span> apportant une flexibilité supplémentaire (logement du personnel, revenu complémentaire, espace pour invités)</li>
+                        <li><span class="font-semibold">Structure sur deux niveaux</span> permettant une bonne séparation des espaces jour/nuit</li>
+                        <li><span class="font-semibold">Accès rapide à l'aéroport</span> (10 min) : facteur important pour les expatriés et hommes d'affaires</li>
+                        <li><span class="font-semibold">Proximité du centre commercial Erevan</span> offrant tous les services et commerces nécessaires</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Clientèle cible détaillée</h3>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-blue-600">Expatriés et personnel diplomatique</h4>
+                        <p>Les expatriés travaillant pour des ONG, organisations internationales ou ambassades recherchent des logements spacieux dans des quartiers sécurisés avec un accès facile à leurs lieux de travail.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-blue-600">Cadres supérieurs d'entreprises internationales</h4>
+                        <p>Professionnels en mission longue durée au Bénin, disposant de budgets confortables pour leur logement, généralement pris en charge par leurs employeurs.</p>
+                    </div>
+                    <div class="mb-4">
+                        <h4 class="font-semibold text-blue-600">Entrepreneurs et hommes d'affaires</h4>
+                        <p>Professionnels ayant besoin d'un pied-à-terre confortable à Cotonou pour leurs activités commerciales régulières.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-blue-600">Familles aisées locales</h4>
+                        <p>Familles béninoises à haut revenu recherchant un logement spacieux et bien situé, avec possibilité de loger du personnel à domicile dans le studio autonome.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="highlight-box mt-4">
+                <p class="font-semibold">Potentiel locatif confirmé</p>
+                <p>D'après notre analyse du marché immobilier à Cotonou, les villas de standing similaires dans des quartiers centraux se louent généralement entre 1 million et 1,8 million FCFA (environ 1 500 € à 2 750 €), ce qui confirme le potentiel locatif de notre bien à 1 650 € mensuel.</p>
+            </div>
+        </section>
+
+        <!-- Risques et atténuations -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Risques et Stratégies d'Atténuation</h2>
+            <div class="overflow-x-auto">
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Risque identifié</th>
+                            <th>Niveau</th>
+                            <th>Impact</th>
+                            <th>Stratégie d'atténuation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Périodes de vacance locative</td>
+                            <td>Moyen</td>
+                            <td>Perte de revenus temporaire</td>
+                            <td>Constituer une réserve de trésorerie équivalente à 3 mois de loyer. Travailler avec plusieurs agences immobilières spécialisées dans la clientèle expatriée.</td>
+                        </tr>
+                        <tr>
+                            <td>Évolution défavorable du marché immobilier</td>
+                            <td>Faible</td>
+                            <td>Baisse potentielle des loyers</td>
+                            <td>Le marché immobilier haut de gamme à Cotonou montre une tendance haussière stable. L'emplacement central et la qualité du bien garantissent sa valeur à long terme.</td>
+                        </tr>
+                        <tr>
+                            <td>Défauts de paiement</td>
+                            <td>Faible</td>
+                            <td>Retards ou pertes de revenus</td>
+                            <td>Sélection rigoureuse des locataires. Privilégier les entreprises ou organisations internationales comme garants. Demander une caution de 2-3 mois.</td>
+                        </tr>
+                        <tr>
+                            <td>Coûts d'entretien imprévus</td>
+                            <td>Moyen</td>
+                            <td>Charges supplémentaires</td>
+                            <td>La provision mensuelle de 150 € doit couvrir l'entretien courant. Une inspection complète du bien avant achat limitera les surprises.</td>
+                        </tr>
+                        <tr>
+                            <td>Instabilité politique</td>
+                            <td>Faible</td>
+                            <td>Impact sur le marché expatrié</td>
+                            <td>Le Bénin est reconnu pour sa stabilité politique dans la région. Diversifier la clientèle cible pour inclure également la clientèle locale.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="highlight-box mt-4">
+                <p class="font-semibold">Gestion du bien</p>
+                <p>Pour optimiser la rentabilité et minimiser les risques, nous recommandons de travailler avec une agence immobilière professionnelle spécialisée dans la gestion locative haut de gamme à Cotonou, qui pourra s'occuper de la sélection rigoureuse des locataires, de la maintenance régulière du bien et de la gestion quotidienne.</p>
+            </div>
+        </section>
+
+        <!-- Conclusions et recommandations -->
+        <section class="section">
+            <h2 class="section-title text-2xl font-bold">Conclusions et Recommandations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Points forts du projet</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li><span class="font-semibold">Rentabilité attractive</span> avec un taux annualisé de 8,08% sur 10 ans</li>
+                        <li><span class="font-semibold">Emplacement stratégique</span> dans un quartier central de Cotonou, à proximité des points d'intérêt</li>
+                        <li><span class="font-semibold">Bien immobilier de standing</span> répondant aux attentes d'une clientèle internationale</li>
+                        <li><span class="font-semibold">Structure de financement optimisée</span> avec un prêt remboursé en 5 ans</li>
+                        <li><span class="font-semibold">Forte augmentation des bénéfices</span> à partir de la 6ème année (triplement du bénéfice net mensuel)</li>
+                        <li><span class="font-semibold">Studio autonome</span> apportant une valeur ajoutée significative</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold text-blue-700 mb-3">Recommandations</h3>
+                    <ul class="list-disc pl-5 space-y-2">
+                        <li>Procéder à une <span class="font-semibold">inspection technique approfondie</span> du bien avant l'acquisition</li>
+                        <li>Vérifier minutieusement tous les <span class="font-semibold">documents de propriété</span> et s'assurer de la conformité juridique</li>
+                        <li>Établir un <span class="font-semibold">partenariat avec une agence immobilière spécialisée</span> dans la clientèle expatriée</li>
+                        <li><span class="font-semibold">Constituer une réserve de trésorerie</span> équivalente à au moins 3 mois de loyer pour couvrir les périodes de vacance potentielles</li>
+                        <li>Prévoir un <span class="font-semibold">budget pour des aménagements qualitatifs</span> répondant aux standards internationaux (climatisation, internet haut débit, système de sécurité, etc.)</li>
+                        <li>Envisager une <span class="font-semibold">assurance multirisque habitation</span> couvrant les dommages potentiels</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="highlight-box mt-6">
+                <h3 class="text-xl font-semibold text-blue-800 mb-2">Conclusion finale</h3>
+                <p>Ce projet d'investissement dans une villa de 400m² à Gbégamey, Cotonou présente un profil financier très attractif avec une rentabilité annualisée de 8,08% sur 10 ans. La structure de financement sur 5 ans permet de maximiser les bénéfices sur la seconde moitié de la période d'investissement.</p>
+                <p class="mt-2">Le montant du loyer mensuel fixé à 1 650 € est réaliste au regard du marché immobilier local pour ce type de bien, et l'emplacement stratégique à proximité des points d'intérêt de la ville renforce considérablement l'attractivité du bien pour la clientèle cible.</p>
+                <p class="mt-2 font-semibold">Avec une gestion professionnelle et une attention particulière aux recommandations formulées, ce projet immobilier présente un excellent potentiel de rendement à long terme sur le marché béninois.</p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-10 pt-6 border-t border-gray-200 text-center text-gray-600">
+            <p>© 2025 - Analyse financière du projet immobilier à Cotonou, Bénin</p>
+            <p class="mt-2 text-sm">Document Strictement confidentiel rédigé par Samuel Dokponou</p>
+        </footer>
+    </div>
+</body>
+</html>
